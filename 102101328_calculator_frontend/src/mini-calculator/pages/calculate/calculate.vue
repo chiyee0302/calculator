@@ -302,8 +302,15 @@
 				//清除
 				else if(item.value==="C"){
 					this.ans="0";
-					is_new=1;
+					this.is_new=1;
 					this.calculate_string="";
+					fetch('http://localhost:9090/calc',{
+						method:'DELETE',
+						headers: {
+						    'Content-Type': 'application/json'  
+						},  
+						//body: JSON.stringify(tran_data)
+					})
 				}
 			
 				else if(item.value==='Back'){

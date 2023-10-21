@@ -276,7 +276,7 @@ func main() {
 			} else if yearsFloat > 3 {
 				temp = msg1.Five_year
 			}
-			temp = temp
+			// temp = temp
 		} else {
 			if yearsFloat <= 0.5 {
 				temp = msg2.Interest_1
@@ -289,13 +289,15 @@ func main() {
 			} else if yearsFloat >= 5 {
 				temp = msg2.Interest_5
 			}
-			temp = temp
+			// temp = temp
 		}
+
 		calcS := fmt.Sprintf("%s * %s * %s", u1.Money, temp, u1.Years)
 		result, err := engine.ParseAndExec(calcS)
 		if err != nil {
 			u1.Ans = "error"
 		} else {
+			result /= 100
 			u1.Ans = fmt.Sprintf("%v", result)
 		}
 		c.JSON(http.StatusOK, gin.H{
