@@ -1,0 +1,40 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+				
+		// 		"navigationBarTitleText": "计算器"
+				
+		// 	}
+		// },
+		{
+			"path": "pages/calculate/calculate",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "标准计算器"
+			}
+		},
+		{
+			"path": "pages/science/science",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "科学计算器"
+			}
+		},
+		{
+			"path": "pages/bonus/bonus",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "利率计算器"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

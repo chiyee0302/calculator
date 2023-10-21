@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "利率计算器",
+  "usingComponents": {
+    "my-navigationbar-vue": "/components/MyNavigationbar"
+  }
+}

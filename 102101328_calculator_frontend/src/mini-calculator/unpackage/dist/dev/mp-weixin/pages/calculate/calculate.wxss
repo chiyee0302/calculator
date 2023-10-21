@@ -1,0 +1,148 @@
+/*page/calculate/calculate
+ */
+.content{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+/* 	line-height: baseline; */
+}
+.history_list{
+	background-color: #f8f8f8;
+	 /* display: flex; */
+	flex-direction: column;
+	position: absolute;
+	top:20%;
+	width: 100%;
+	height: 80%;
+	text-align: center;
+	justify-content: center;
+	border: 1px solid #000000;
+	border-radius: 50rpx 50rpx 0px 0px;
+}
+.history_title{
+	height: 55rpx;
+	/* text-align: center;
+	justify-content: center; */
+	margin-bottom: 50rpx;
+}
+.history_item_group{
+	display: flex;
+	flex-direction: column;
+	white-space: pre-wrap;  
+	  word-wrap: break-word;
+}
+.history_item{
+	/* flex:1; */
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	flex-wrap: wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word; 
+	background-color: #f8f8f8;
+	margin-top: 50rpx;
+	font-size: 50rpx;
+}
+.cu{
+	font-weight: bold;
+}
+.standar{
+	margin-top: 100rpx;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	width: 100%;
+	height: 100rpx;
+	transition:1ms;
+}
+
+
+/* .science_hover{
+	color: #8e8e8e;
+	background-color: #6c6c6c;
+} */
+.screen{
+	flex: 1;
+	height: 25%;
+	width: 100%;
+	font-size: 100rpx;
+	font-weight: bold;
+	text-align: right;
+	/* vertical-align: bottom; */
+	background-color: #fdfbfb;
+	
+	display:flex;
+	flex-direction: column;
+}
+.calculate_string_area{
+	margin-top: 40rpx;
+	font-size: 30rpx;
+	color: #7a7a7a;
+	font-weight: normal;
+	word-wrap:break-word;
+}
+.ans_area{
+	font-size: 90rpx;
+	word-wrap:break-word;
+}
+.button_group{
+	box-shadow: 0px -1px #e1f9f9;
+	border:0px solid #e1f9f9;
+	flex: 3;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/* align-items: center; */
+}
+.button_item{
+	
+	width: 25%;
+	display: inline;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	border: 1rpx solid #ffffff;
+	background-color: #ffffff;
+	font-size: 40rpx;
+	text-align: center;
+	padding: auto;
+}
+#clear{
+	background-color: #cdeeef;
+	color: #4a706c;
+}
+.hover_button_item{
+	background-color: #253838!important;
+}
+
+
+/* .button_img{
+	height: 40rpx;
+	width: 40rpx;
+} */
+
+
+/* .c_type{
+	background-color: #cdeeef;
+	color: #4a706c;
+} */
+
+
+/* .hover_c_item{
+	background-color: #7d9191!important;
+} */
+#equal{
+	background-color: #00bbbe;
+	color: #ffffff;
+}
+
+
+/* .hover_op_item{
+	background-color: #007b7b!important;
+} */
+.hover_item{
+	background-color: #838383;
+}
+
